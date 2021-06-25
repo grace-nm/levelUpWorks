@@ -1,0 +1,41 @@
+
+.headerBox{
+    display: flex;
+    /* flex-direction: ; */
+    padding: 1%;
+    background-color: #C4C4C4;
+}
+.linksNav{
+    display: flex;
+    flex-direction: row; 
+    padding: 1%;
+    margin: auto;
+}
+
+.footerBox{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    font-size: 70%;
+    background-color: #C4C4C4;
+}
+
+.name{
+    margin: auto;
+    padding: 0.5%;
+    color: #070707;
+
+}
+
+.copyRight{
+    margin: auto;
+    padding: 0.5%;
+    color: #070707;
+
+}
+
+.icons{
+    margin: auto;
+    padding: 0.5%;
+    color: #252525;
+}
