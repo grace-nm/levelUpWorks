@@ -1,0 +1,12 @@
+.placeimage{
+display: flex;
+justify-self: center;
+align-self: center;
+width: 100%;
+}
+
+
+.bigBox{
+display: flex;
+justify-content: center;
+}

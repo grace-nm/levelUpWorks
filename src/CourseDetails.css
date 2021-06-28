@@ -1,0 +1,11 @@
+.placeholder{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    }
+    
+    
+    .containerCD{
+    display: flex;
+    justify-content: center;
+    }

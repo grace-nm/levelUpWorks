@@ -3,12 +3,28 @@
     display: flex;
     /* flex-direction: ; */
     padding: 1%;
-    background-color: #C4C4C4;
+    background-color: #FCF9F9;
 }
-.linksNav{
+
+.headerLogo{
+    width: 30%;
+    height: 80%;
+}
+
+.hehe{
     display: flex;
-    flex-direction: row; 
-    padding: 1%;
+    flex-direction: row;
+    margin: auto;
+}
+
+.hehe p{
+    padding: 0%;
+    margin: 20px;
+    color: #FBB040;
+    font-family: Roboto 18px;
+}
+
+.headerLogo{
     margin: auto;
 }
 
@@ -31,7 +47,6 @@
     margin: auto;
     padding: 0.5%;
     color: #070707;
-
 }
 
 .icons{

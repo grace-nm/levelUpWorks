@@ -1,25 +1,44 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import './Layout.css';
+import headerLogo from './headerLogo.png';
+import { Link } from 'react-router-dom';
+
 
 const Layout = ({ children }) => {
     return (
         <>
             <nav className="nav">
                 <div className="headerBox">
-                    <p>IconLogo</p>
-                    <div className="linksNav">
-                        <p>HOME</p>
-                        <p>COURSE DETAIL</p>
-                        <p>BOOKING CONSULTATION</p>
-                        <p>ABOUT US</p>
-                        <p>ACCOUNTlogo</p>
-                        {/* <Link to='/'>Home</Link>
-                <Link to='/app'>App</Link>
-                <Link to='/marketing'>Marketing</Link> */}
+
+                    <Link to="/">
+                        <img className="headerLogo" alt="logo" src={headerLogo} />
+                    </Link>
+
+                    <div className="hehe">
+                        <Link to="/">
+                            <p className="homeLink">Home</p>
+                        </Link>
+
+                        <Link to="/CourseDetails">
+                            <p className="courseDetLink">Course detail</p>
+                        </Link>
+
+                        <Link to="/bookingPage">
+                            <p className="bookingLink">Booking Consultation</p>
+                        </Link>
+
+                        <Link to="/aboutUs">
+                            <p className="aboutUsLink">About us</p>
+                        </Link>
+
+                        <Link to="/Login">
+                            <p className="accLogo">logo</p>
+                        </Link>
                     </div>
                 </div>
             </nav>
+
+
             <main>
                 {children}
             </main>
