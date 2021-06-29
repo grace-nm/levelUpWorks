@@ -2,6 +2,7 @@ import React from 'react';
 import './Login.css';
 import Layout from './Layout';
 import placeholder from './placeholder.png';
+import LoginPage from './LoginPage';
 
 import Axios from "Axios";
 
@@ -52,30 +53,9 @@ function LoginPage() {
             </div>
         </Layout>
 
-        <div className="registration">
+        <LoginPage/>
 
-          <h1>Registration</h1>
-          <label>Username</label>
-
-          <input type="text" onChange={(e) => {
-            setUsernameReg(e.target.value)
-          }}></input>
-
-          <label>Password</label>
-
-          <input type="text"></input>
-          <button onClick={register}>Register</button>
-          
-        </div>
-
-        <div className="login">
-
-          <h1>Login</h1>
-          <input type="text" placeholder="Enter Username"></input>
-          <input type="text" placeholder="Enter Password"></input>
-          <button>Login</button>
-          
-        </div>
+     
 
         </div>
 
