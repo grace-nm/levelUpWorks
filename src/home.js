@@ -2,6 +2,10 @@ import './home.css';
 import Layout from './Layout';
 // import CourseDetails from './CourseDetails';
 import openingImage from './openingImage.png';
+import tile1 from './course 2.png';
+import tile2 from './Group 374.png';
+import tile3 from './Group 376.png';
+
 
 
 function App() {
@@ -15,7 +19,14 @@ function App() {
 
                     <p> image of alan</p>
                     <br />
+                    
+                    <div className="image-links">
                     <p>3 image links</p>
+                    <img className="tile1" alt="img" src={tile1} />
+                    <img className="tile2" alt="img" src={tile2} />
+                    <img className="tile3" alt="img" src={tile3} />
+
+                    </div>
                     <br />
                     <p>even more image links</p>
                 </div>
