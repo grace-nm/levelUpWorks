@@ -28,11 +28,11 @@ function App() {
                 <div className="sectionOne">
                     <img className="openingImage" alt="img" src={openingImage} />
 
-                    <p> image of alan</p>
+                    {/* <p> image of alan</p> */}
                     <br />
                     
                     <div className="image-links">
-                    <p>3 image links</p>
+                    {/* <p>3 image links</p> */}
                     <img className="tile1" alt="img" src={tile1} />
                     <img className="tile2" alt="img" src={tile2} />
                     <img className="tile3" alt="img" src={tile3} />
@@ -40,17 +40,17 @@ function App() {
                     </div>
                     <br />
                     <div className="quote-image">
-                    <p>even more image links</p>
+                    {/* <p>even more image links</p> */}
                     <img className="quote-tiles" alt="img" src={tilequotes}/>
                     </div>
 
                 </div>
 
-                <div className="sectionTwo">
+                {/* <div className="sectionTwo">
                     <div className="firstSquare">  </div>
                     <div className="secondSquare"> </div>
                     <div className="orangeSquare"></div>
-                </div>
+                </div> */}
                 {/* Have put this here as a placeholder, not sure if we have time to add the hover? */}
                 <div className="hover-gallery">
                 <img src={hovergallery}/>

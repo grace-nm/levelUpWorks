@@ -48,7 +48,7 @@
     height: 20%;
     display:flex;
     flex-direction: row;
-    background: red;
+    background: white;
   }
   
   .ourAss{
@@ -64,6 +64,38 @@
     background: #FFFFFF;
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 100px;
+  }
+
+  .image-links {
+    margin-top: -150px;
+  }
+
+  .tile1{
+    padding: 5px;
+  }
+  .tile1:hover{
+    opacity: 80%;
+  }
+  .tile2{
+    padding: 5px;
+  }
+
+  .tile2:hover {
+    opacity: 80%;
+  }
+
+  .tile3{
+    padding: 5px;
+  }
+
+  .tile3:hover{
+    opacity: 80%;
+  }
+
+  .quote-image {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .logos{
@@ -74,8 +106,10 @@
 
    .hover-gallery {
      align-self: center;
+
    }
 
    .apply-now-button {
     align-self: center;
+    padding-top: 50px;
    }
