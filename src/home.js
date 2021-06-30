@@ -5,8 +5,7 @@ import Layout from './Layout';
 
 // Image imports
 import openingImage from './openingImage.png';
-import tile1 from './MicrosoftTeams-image (2).png';
-// This needs the size changing as the file was different from the ux team
+import tile1 from './chck our prog.png';
 import tile2 from './Group 374.png';
 import tile3 from './Group 376.png';
 import tilequotes from './Frame 9.png';
