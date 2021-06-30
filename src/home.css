@@ -72,6 +72,10 @@
     color: #FFFFFF;
    }
 
+   .hover-gallery {
+     align-self: center;
+   }
+
    .apply-now-button {
     align-self: center;
    }
