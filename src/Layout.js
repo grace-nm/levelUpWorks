@@ -39,15 +39,15 @@ const Layout = ({ children }) => {
             </nav>
 
 
-            <main>
+            <main className="pane">
                 {children}
             </main>
 
             <footer>
                 <div className="footerBox">
                     <p className="name">LevelUp Works</p>
-                    <p className="copyRight">2021 - All right reserved</p>
-                    <p className="icons">icons will go here</p>
+                    <p className="copyRight">@ 2021 - All rights reserved</p>
+                    <p className="icons">icons </p>
 
                 </div>
             </footer>

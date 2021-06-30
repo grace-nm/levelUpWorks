@@ -1,56 +1,70 @@
+/* .pane{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+} */
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+font-weight:bold;
+}
 
 .headerBox{
     display: flex;
-    /* flex-direction: ; */
     padding: 1%;
     background-color: #FCF9F9;
-}
-
-.headerLogo{
-    width: 30%;
-    height: 80%;
+    filter: drop-shadow(15px 5px 5px grey);
 }
 
 .hehe{
     display: flex;
     flex-direction: row;
     margin: auto;
+    margin-right: 10%;
 }
 
 .hehe p{
     padding: 0%;
     margin: 20px;
-    color: #FBB040;
+    color: #C58200;
     font-family: Roboto 18px;
 }
 
 .headerLogo{
     margin: auto;
+    width: 27%;
+    height: 85%;
+    margin-left: 50%;
 }
 
 .footerBox{
     display: flex;
     flex-direction: column;
     padding: 1%;
-    font-size: 70%;
-    background-color: #C4C4C4;
+    font-size: 80%;
+    background-color: #F2EFEF;
+    /* font-weight: bold; */
 }
 
 .name{
     margin: auto;
     padding: 0.5%;
-    color: #070707;
-
+    color: #C58200;
 }
 
 .copyRight{
     margin: auto;
     padding: 0.5%;
-    color: #070707;
+    color: #C58200;
 }
 
 .icons{
     margin: auto;
     padding: 0.5%;
-    color: #252525;
+    color: #FBB040;
 }

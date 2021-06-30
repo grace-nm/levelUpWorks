@@ -9,4 +9,6 @@ width: 100%;
 .bigBox{
 display: flex;
 justify-content: center;
+margin: auto;
+min-height: 100vh; 
 }

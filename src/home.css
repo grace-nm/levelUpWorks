@@ -1,62 +1,71 @@
 
 .container {
-    /* min-height: 100vh; */
-    display: flex;
-    flex-direction: column;
+    margin: auto;
+    min-height: 100vh; 
+    /* display: flex;
+    flex-direction: column; */
   }
-  
+ 
+  .openingImage{
+    border-radius: 0px 0px 20px 20px;
+    z-index:;
+  }
+
   .sectionOne {
     justify-content: center;
     align-items: center;
     display:flex;
     flex-direction: column;
     margin: 0px;
-    background-color: white;
-    min-height: 30vh;
   }
   
   .sectionTwo {
-    display:flex;
-    margin: 0px;
+    display: flex;
+    flex-direction: row;
     background-color: #FFF0D4;
-    min-height: 30vh;
   }
+
   .orangeSquare{
     background-color: #E69F40;
-    width: 20%;
-  }
-  .whiteSquares{
-    display: flex;
-    flex-direction: column;
+    /* margin: auto; */
+ }
+
+  /* .whiteSquares{
     margin: auto;
-  }
+  } */
+
   .firstSquare{
-    background-color: white;
+    background-color: #cc9d5f;
     border: black 1px;
-    min-height: 30vh;
-    min-width: 30vh;
   }
+
   .secondSquare{
-    background-color: white;
+    background-color: darkgoldenrod;
     border-style: 6px, black 1px;
-    min-height: 30vh;
-    min-width: 30vh;
   }
   
   .sectionThree {
+    height: 20%;
     display:flex;
-    flex-direction: column;
-    margin: 0px;
-    background-color: white;
-    min-height: 30vh;
+    flex-direction: row;
+    background: red;
   }
   
-  .space{
-    min-height: 10vh;
-    min-width: 30vh;
-    background-color: light grey;
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    align-self: center;
+  .ourAss{
+   margin: auto;
+   background-color: #645D5A;
+   color: #FFFFFF;
+   padding:10px;
   }
+
+  .sponsorLogos {
+    display:flex;
+    flex-direction: row;
+    background: grey;
+  }
+
+  .logos{
+    margin: auto;
+    background-color: dark grey;
+    color: #FFFFFF;
+   }
