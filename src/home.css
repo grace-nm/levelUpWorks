@@ -8,7 +8,7 @@
  
   .openingImage{
     border-radius: 0px 0px 20px 20px;
-    z-index:;
+    /* z-index:; */
   }
 
   .sectionOne {
@@ -61,11 +61,17 @@
   .sponsorLogos {
     display:flex;
     flex-direction: row;
-    background: grey;
+    background: #FFFFFF;
+    padding-left: 200px;
+    padding-right: 200px;
   }
 
   .logos{
     margin: auto;
     background-color: dark grey;
     color: #FFFFFF;
+   }
+
+   .apply-now-button {
+    align-self: center;
    }

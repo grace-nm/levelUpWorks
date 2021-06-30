@@ -14,6 +14,7 @@ import logo1 from './image 30.png';
 import logo2 from './image 31.png';
 import logo3 from './image 32.png';
 import logo4 from './image 33.png';
+import applybutton from './Group 405.png';
 
 
 
@@ -53,8 +54,13 @@ function App() {
                 {/* Have put this here as a placeholder, not sure if we have time to add the hover? */}
                 <div className="hover-gallery">
                 <img src={hovergallery}/>
-
                 </div>
+
+                {/* Apply now button */}
+                <div className="apply-now-button">
+                    <img src={applybutton}/>
+                </div>
+
 
                 <div className="sectionThree">
                     <div className="ourAss">OUR ASSOCIATES</div>
