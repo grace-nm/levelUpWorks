@@ -5,6 +5,9 @@ import openingImage from './openingImage.png';
 import tile1 from './course 2.png';
 import tile2 from './Group 374.png';
 import tile3 from './Group 376.png';
+import tilequotes from './Frame 9.png';
+import hovergallery from './HOVER GALLERY.png'
+
 
 
 
@@ -28,13 +31,22 @@ function App() {
 
                     </div>
                     <br />
+                    <div className="quote-image">
                     <p>even more image links</p>
+                    <img className="quote-tiles" alt="img" src={tilequotes}/>
+                    </div>
+
                 </div>
 
                 <div className="sectionTwo">
                     <div className="firstSquare">  </div>
                     <div className="secondSquare"> </div>
                     <div className="orangeSquare"></div>
+                </div>
+                {/* Have put this here as a placeholder, not sure if we have time to add the hover? */}
+                <div className="hover-gallery">
+                <img src={hovergallery}/>
+
                 </div>
 
                 <div className="sectionThree">
