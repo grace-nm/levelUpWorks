@@ -1,12 +1,20 @@
 import './home.css';
 import Layout from './Layout';
 // import CourseDetails from './CourseDetails';
+
+
+// Image imports
 import openingImage from './openingImage.png';
-import tile1 from './course 2.png';
+import tile1 from './MicrosoftTeams-image (2).png';
+// This needs the size changing as the file was different from the ux team
 import tile2 from './Group 374.png';
 import tile3 from './Group 376.png';
 import tilequotes from './Frame 9.png';
 import hovergallery from './HOVER GALLERY.png'
+import logo1 from './image 30.png';
+import logo2 from './image 31.png';
+import logo3 from './image 32.png';
+import logo4 from './image 33.png';
 
 
 
@@ -54,9 +62,10 @@ function App() {
                 </div>
 
                 <div className="sponsorLogos">
-                    <div className="logos">fjkd</div>
-                    <div className="logos"></div>
-                    <div className="logos"></div>
+                    <div className="logos"><img src={logo1}/></div>
+                    <div className="logos"><img src={logo2}/></div>
+                    <div className="logos"><img src={logo3}/></div>
+                    <div className="logos"><img src={logo4}/></div>
                 </div>
             </div>
         </Layout>
