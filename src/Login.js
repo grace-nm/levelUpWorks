@@ -4,42 +4,42 @@ import Layout from './Layout';
 import placeholder from './placeholder.png';
 import LoginPage from './LoginPage';
 
-import Axios from "Axios";
+// import axios from 'axios';
 
-function LoginPage() {
+function Login() {
 
-    const [usernameReg, setUsernameReg] = useState("");
-    const [passwordReg, setPasswordReg] = useState("");
+    // const [usernameReg, setUsernameReg] = useState("");
+    // const [passwordReg, setPasswordReg] = useState("");
 
-    const [username, setUsername] = useState("");
-    const [password, setPassword] = useState("");
+    // const [username, setUsername] = useState("");
+    // const [password, setPassword] = useState("");
 
-    const [loginStatus, setLoginStatus] = useState("");
+    // const [loginStatus, setLoginStatus] = useState("");
 
-    const register = () => {
+    // const register = () => {
 
-      Axios.post('http://localhost3002/register', {
-        username: usernameReg,
-        password: passwordReg,
-      }).then((response) => {
-        console.log(response);
-      }) ;
-    }
+    //   Axios.post('http://localhost3002/register', {
+    //     username: usernameReg,
+    //     password: passwordReg,
+    //   }).then((response) => {
+    //     console.log(response);
+    //   }) ;
+    // }
 
-    const login = () => {
+    // const login = () => {
 
-      Axios.post('http://localhost3002/login', {
-        username: username,
-        password: password,
+    //   Axios.post('http://localhost3002/login', {
+    //     username: username,
+    //     password: password,
 
-      }).then((response) => {
-        if (response.data.message) {
-          setLoginStatus(response.data.message)
-        } else {
-          setLoginStatus(response.data[0].username)
-        }
-      }) ;
-    }
+    //   }).then((response) => {
+    //     if (response.data.message) {
+    //       setLoginStatus(response.data.message)
+    //     } else {
+    //       setLoginStatus(response.data[0].username)
+    //     }
+    //   }) ;
+    // }
 
     return (
 
@@ -62,4 +62,4 @@ function LoginPage() {
     );
 }
 
-export default LoginPage;
+export default Login;
