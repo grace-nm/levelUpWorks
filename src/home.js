@@ -58,7 +58,7 @@ function App() {
 
                 {/* Apply now button */}
                 <div className="apply-now-button">
-                    <img src={applybutton}/>
+                    <img src={applybutton} alt="img"/>
                 </div>
 
 
@@ -67,10 +67,10 @@ function App() {
                 </div>
 
                 <div className="sponsorLogos">
-                    <div className="logos"><img src={logo1}/></div>
-                    <div className="logos"><img src={logo2}/></div>
-                    <div className="logos"><img src={logo3}/></div>
-                    <div className="logos"><img src={logo4}/></div>
+                    <div className="logos"><img src={logo1} alt="img"/></div>
+                    <div className="logos"><img src={logo2} alt="img"/></div>
+                    <div className="logos"><img src={logo3} alt="img"/></div>
+                    <div className="logos"><img src={logo4} alt="img"/></div>
                 </div>
             </div>
         </Layout>

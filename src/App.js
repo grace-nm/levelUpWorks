@@ -6,6 +6,7 @@ import { React } from 'react';
 import BookingPage from './bookingPage';
 import AboutUs from './aboutUs';
 import Login from './Login';
+import Signup from './SignupPage';
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <Route path='/bookingPage' component={BookingPage} />
         <Route path='/aboutUs' component={AboutUs} />
         <Route path='/Login' component={Login} />
+        <Route path='/Signup' component={Signup}/>
       </Switch>
     </div>
   );

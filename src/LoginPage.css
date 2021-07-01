@@ -5,13 +5,29 @@
 .container {
     padding: 50px;
     padding-top: 100px;
+    display: flex;
+}
+
+.login-right {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+
+}
+
+.login-left {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
 }
 
 
 .loginImage {
-    height: 80%;
+    height: 50%;
     width: 50%;
-    float: right;
+
 }
 
 .heading {

@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
-import './LoginPage.css';
-import loginimage from './loginimage.png';
-
+import LoginPage from './LoginPage';
+import React, {useState} from 'react';
+import './SignupPage.css';
+import loginimage from './Group 462.png';
+import Layout from './Layout';
 import Axios from 'axios';
 
-function LoginPage() {
+
+function Signup() {
 
     const [usernameReg, setUsernameReg] = useState("");
     const [passwordReg, setPasswordReg] = useState("");
@@ -36,33 +38,17 @@ function LoginPage() {
         }
       }) ;
     }
-  
+
+
     return (
-      <div className="container">
-        
-        <div className="login-left">
-         
-        <h2>Welcome Back</h2>
-        
-        <div className="login">
-          <h1 className="heading"><h1>Login to your account</h1></h1>
-          <label className="label">Username</label>
-          <input type="text" placeholder="Enter Username"></input>
-          <label className="label">Password</label>
-          <input type="text" placeholder="Enter Password"></input>
-          <button className="button">Login</button>
-         
-        {/* </div>
 
-        <div className="account"> */}
-             
-          <h3>Remember me</h3>
-          <h3>Forgot password?</h3>
-        </div>
-        
-        
+        <div className="Login">
 
-        {/* <div className="registration">
+        <Layout>
+            <div className="phatBox">
+
+            {/* <LoginPage/> */}
+          <div className="registration">
           <h1 className="heading"><h2>Don't have an account? Join our program!</h2></h1>
           <label className="label">Username</label>
           <input type="text" onChange={(e) => {
@@ -71,18 +57,22 @@ function LoginPage() {
           <label className="label">Password</label>
           <input type="text"></input>
           <button className="button" onClick={register}>Register</button>
-        </div> */}
+          </div>
+
+        <img className="image" src={loginimage} alt="img"/>
+
+          </div>
+
+            
+        </Layout>
+
+        
+
+     
+
         </div>
 
-        <div className="login-right">
-
-        <img className="loginImage" alt="logo" src={loginimage} />
-
-        </div>
-
-      </div>
     );
-  }
-  
-  export default LoginPage;
-  
+}
+
+export default Signup;
